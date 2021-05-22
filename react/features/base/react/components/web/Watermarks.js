@@ -164,9 +164,7 @@ class Watermarks extends Component<Props, State> {
 
         if (_showJitsiWatermark) {
             const style = {
-                backgroundImage: `url(${_logoUrl})`,
-                maxWidth: 140,
-                maxHeight: 70
+                backgroundImage: `url(${_logoUrl})`
             };
 
             reactElement = (<div
@@ -200,9 +198,9 @@ class Watermarks extends Component<Props, State> {
             return (
                 <a
                     className = 'poweredby'
-                    href = 'http://jitsi.org'
+                    href = 'https://livetutor.live'
                     target = '_new'>
-                    <span>{ t('poweredby') } jitsi.org</span>
+                    <span>{ t('poweredby') } livetutor.live</span>
                 </a>
             );
         }
@@ -230,7 +228,7 @@ function _mapStateToProps(state, ownProps) {
     const isValidRoom = state['features/base/conference'].room;
     const {
         DEFAULT_LOGO_URL,
-        JITSI_WATERMARK_LINK,
+        // JITSI_WATERMARK_LINK,
         SHOW_JITSI_WATERMARK
     } = interfaceConfig;
     let _showJitsiWatermark = (
@@ -246,12 +244,12 @@ function _mapStateToProps(state, ownProps) {
             _showJitsiWatermark = !customizationFailed && Boolean(logoImageUrl);
         } else if (defaultBranding) {
             _logoUrl = DEFAULT_LOGO_URL;
-            _logoLink = JITSI_WATERMARK_LINK;
+            _logoLink = 'https://livetutor.live';
         }
     } else {
         // When there is no custom branding data use defaults
         _logoUrl = ownProps.defaultJitsiLogoURL || DEFAULT_LOGO_URL;
-        _logoLink = JITSI_WATERMARK_LINK;
+        _logoLink = 'https://livetutor.live';
     }
 
     return {

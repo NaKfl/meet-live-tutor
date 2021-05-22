@@ -10,14 +10,14 @@ import { KICK_OUT_ENABLED, getFeatureFlag } from '../../../base/flags';
 import { getParticipantDisplayName } from '../../../base/participants';
 import { connect } from '../../../base/redux';
 import { StyleType } from '../../../base/styles';
-import { PrivateMessageButton } from '../../../chat';
+// import { PrivateMessageButton } from '../../../chat';
 import { hideRemoteVideoMenu } from '../../actions.native';
 
 import ConnectionStatusButton from './ConnectionStatusButton';
 import GrantModeratorButton from './GrantModeratorButton';
 import KickButton from './KickButton';
-import MuteButton from './MuteButton';
-import MuteEveryoneElseButton from './MuteEveryoneElseButton';
+// import MuteButton from './MuteButton';
+// import MuteEveryoneElseButton from './MuteEveryoneElseButton';
 import PinButton from './PinButton';
 import styles from './styles';
 
@@ -106,12 +106,12 @@ class RemoteVideoMenu extends PureComponent<Props> {
             <BottomSheet
                 onCancel = { this._onCancel }
                 renderHeader = { this._renderMenuHeader }>
-                { !_disableRemoteMute && <MuteButton { ...buttonProps } /> }
+                {/* { !_disableRemoteMute && <MuteButton { ...buttonProps } /> } */}
                 { !_disableKick && <KickButton { ...buttonProps } /> }
                 { !_disableGrantModerator && <GrantModeratorButton { ...buttonProps } /> }
                 <PinButton { ...buttonProps } />
-                <PrivateMessageButton { ...buttonProps } />
-                <MuteEveryoneElseButton { ...buttonProps } />
+                {/* <PrivateMessageButton { ...buttonProps } /> */}
+                {/* <MuteEveryoneElseButton { ...buttonProps } /> */}
                 <ConnectionStatusButton { ...buttonProps } />
             </BottomSheet>
         );

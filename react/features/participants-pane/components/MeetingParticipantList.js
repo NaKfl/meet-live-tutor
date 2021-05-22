@@ -8,7 +8,7 @@ import { useSelector } from 'react-redux';
 import { getParticipants } from '../../base/participants';
 import { findStyledAncestor, shouldRenderInviteButton } from '../functions';
 
-import { InviteButton } from './InviteButton';
+// import { InviteButton } from './InviteButton';
 import { MeetingParticipantContextMenu } from './MeetingParticipantContextMenu';
 import { MeetingParticipantItem } from './MeetingParticipantItem';
 import { Heading, ParticipantContainer } from './styled';
@@ -87,7 +87,7 @@ export const MeetingParticipantList = () => {
     return (
     <>
         <Heading>{t('participantsPane.headings.participantsList', { count: participants.length })}</Heading>
-        {showInviteButton && <InviteButton />}
+        {/* <InviteButton /> */}
         <div>
             {participants.map(p => (
                 <MeetingParticipantItem

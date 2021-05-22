@@ -6,7 +6,7 @@ var config = {
 
     hosts: {
         // XMPP domain.
-        domain: 'jitsi-meet.example.com',
+        domain: 'meet.livetutor.live',
 
         // When using authentication, domain for guest users.
         // anonymousdomain: 'guest.example.com',
@@ -18,11 +18,11 @@ var config = {
         // focus: 'focus.jitsi-meet.example.com',
 
         // XMPP MUC domain. FIXME: use XEP-0030 to discover it.
-        muc: 'conference.jitsi-meet.example.com'
+        muc: 'conference.<!--# echo var="subdomain" default="" -->meet.livetutor.live'
     },
 
     // BOSH URL. FIXME: use XEP-0156 to discover it.
-    bosh: '//jitsi-meet.example.com/http-bind',
+    bosh: '//meet.livetutor.live/http-bind',
 
     // Websocket URL
     // websocket: 'wss://jitsi-meet.example.com/xmpp-websocket',
@@ -378,7 +378,7 @@ var config = {
 
     // Whether to use a welcome page or not. In case it's false a random room
     // will be joined when no room is specified.
-    enableWelcomePage: true,
+    enableWelcomePage: false,
 
     // Disable app shortcuts that are registered upon joining a conference
     // disableShortcuts: false,
@@ -395,10 +395,10 @@ var config = {
     // disable1On1Mode: false,
 
     // Default language for the user interface.
-    // defaultLanguage: 'en',
+    defaultLanguage: 'vn',
 
     // Disables profile and the edit of all fields from the profile settings (display name and email)
-    // disableProfile: false,
+    disableProfile: true,
 
     // Whether or not some features are checked based on token.
     // enableFeaturesBasedOnToken: false,
@@ -452,13 +452,9 @@ var config = {
     // - it's impossible to control the placement of buttons
     // - 'desktop' controls the "Share your screen" button
     // - if `toolbarButtons` is undefined, we fallback to enabling all buttons on the UI
-    // toolbarButtons: [
-    //    'microphone', 'camera', 'closedcaptions', 'desktop', 'embedmeeting', 'fullscreen',
-    //    'fodeviceselection', 'hangup', 'profile', 'chat', 'recording',
-    //    'livestreaming', 'etherpad', 'sharedvideo', 'shareaudio', 'settings', 'raisehand',
-    //    'videoquality', 'filmstrip', 'invite', 'feedback', 'stats', 'shortcuts',
-    //    'tileview', 'select-background', 'download', 'help', 'mute-everyone', 'mute-video-everyone', 'security'
-    // ],
+    toolbarButtons: [
+        'microphone', 'camera', 'closedcaptions', 'desktop', 'fullscreen', 'fodeviceselection', 'hangup', 'chat', 'recording', 'etherpad', 'sharedvideo', 'shareaudio', 'settings', 'raisehand', 'tileview', 'select-background'
+    ],
 
     // Stats
     //
@@ -676,12 +672,13 @@ var config = {
     // },
 
     // Options related to the remote participant menu.
-    // remoteVideoMenu: {
-    //     // If set to true the 'Kick out' button will be disabled.
-    //     disableKick: true,
-    //     // If set to true the 'Grant moderator' button will be disabled.
-    //     disableGrantModerator: true
-    // },
+    remoteVideoMenu: {
+        // If set to true the 'Kick out' button will be disabled.
+        disableKick: true,
+
+        // If set to true the 'Grant moderator' button will be disabled.
+        disableGrantModerator: true
+    },
 
     // If set to true all muting operations of remote participants will be disabled.
     // disableRemoteMute: true,
@@ -730,7 +727,7 @@ var config = {
     // hideParticipantsStats: true,
 
     // Sets the conference subject
-    // subject: 'Conference Subject',
+    subject: 'Live Tutor Meeting Room',
 
     // This property is related to the use case when jitsi-meet is used via the IFrame API. When the property is true
     // jitsi-meet will use the local storage of the host page instead of its own. This option is useful if the browser

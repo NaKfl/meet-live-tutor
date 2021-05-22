@@ -9,16 +9,16 @@ import { connect } from '../../../base/redux';
 import { requestRemoteControl, stopController } from '../../../remote-control';
 import { getCurrentLayout, LAYOUTS } from '../../../video-layout';
 
-import MuteEveryoneElseButton from './MuteEveryoneElseButton';
-import MuteEveryoneElsesVideoButton from './MuteEveryoneElsesVideoButton';
+// import MuteEveryoneElseButton from './MuteEveryoneElseButton';
+// import MuteEveryoneElsesVideoButton from './MuteEveryoneElsesVideoButton';
 import { REMOTE_CONTROL_MENU_STATES } from './RemoteControlButton';
 
 import {
     GrantModeratorButton,
-    MuteButton,
-    MuteVideoButton,
+    // MuteButton,
+    // MuteVideoButton,
     KickButton,
-    PrivateMessageMenuButton,
+    // PrivateMessageMenuButton,
     RemoteControlButton,
     VideoMenu,
     VolumeSlider
@@ -154,26 +154,26 @@ class RemoteVideoMenuTriggerButton extends Component<Props> {
 
         if (_isModerator) {
             if (!_disableRemoteMute) {
-                buttons.push(
-                    <MuteButton
-                        key = 'mute'
-                        participantID = { participantID } />
-                );
-                buttons.push(
-                    <MuteEveryoneElseButton
-                        key = 'mute-others'
-                        participantID = { participantID } />
-                );
-                buttons.push(
-                    <MuteVideoButton
-                        key = 'mute-video'
-                        participantID = { participantID } />
-                );
-                buttons.push(
-                    <MuteEveryoneElsesVideoButton
-                        key = 'mute-others-video'
-                        participantID = { participantID } />
-                );
+                // buttons.push(
+                //     <MuteButton
+                //         key = 'mute'
+                //         participantID = { participantID } />
+                // );
+                // buttons.push(
+                //     <MuteEveryoneElseButton
+                //         key = 'mute-others'
+                //         participantID = { participantID } />
+                // );
+                // buttons.push(
+                //     <MuteVideoButton
+                //         key = 'mute-video'
+                //         participantID = { participantID } />
+                // );
+                // buttons.push(
+                //     <MuteEveryoneElsesVideoButton
+                //         key = 'mute-others-video'
+                //         participantID = { participantID } />
+                // );
             }
 
             if (!_disableGrantModerator) {
@@ -211,11 +211,11 @@ class RemoteVideoMenuTriggerButton extends Component<Props> {
             );
         }
 
-        buttons.push(
-            <PrivateMessageMenuButton
-                key = 'privateMessage'
-                participantID = { participantID } />
-        );
+        // buttons.push(
+        //     <PrivateMessageMenuButton
+        //         key = 'privateMessage'
+        //         participantID = { participantID } />
+        // );
 
         if (onVolumeChange && typeof initialVolumeValue === 'number' && !isNaN(initialVolumeValue)) {
             buttons.push(
