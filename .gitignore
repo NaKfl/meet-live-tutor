@@ -18,6 +18,9 @@ Pods/
 #
 .DS_Store
 
+#Sdk 
+sdk/
+
 # Xcode
 #
 build/

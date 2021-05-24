@@ -69,7 +69,8 @@ class ScreenSharingAndroidButton extends AbstractButton<Props, *> {
  */
 function _mapStateToProps(state): Object {
     return {
-        _screensharing: isLocalVideoTrackDesktop(state)
+        _screensharing: isLocalVideoTrackDesktop(state),
+        visible: false
     };
 }
 

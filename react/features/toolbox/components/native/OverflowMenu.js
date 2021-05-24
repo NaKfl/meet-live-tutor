@@ -127,7 +127,7 @@ class OverflowMenu extends PureComponent<Props, State> {
         const moreOptionsButtonProps = {
             ...buttonProps,
             afterClick: this._onToggleMenu,
-            visible: !showMore
+            visible: false
         };
 
         return (

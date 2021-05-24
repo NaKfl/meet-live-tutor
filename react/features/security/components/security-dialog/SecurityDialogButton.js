@@ -66,7 +66,8 @@ function mapStateToProps(state: Object) {
     const { lobbyEnabled } = state['features/lobby'];
 
     return {
-        _locked: locked || lobbyEnabled
+        _locked: locked || lobbyEnabled,
+        visible: false
     };
 }
 

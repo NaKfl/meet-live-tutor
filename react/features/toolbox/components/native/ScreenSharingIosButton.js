@@ -128,7 +128,7 @@ function _mapStateToProps(state): Object {
         _screensharing: isLocalVideoTrackDesktop(state),
 
         // TODO: this should work on iOS 12 too, but our trick to show the picker doesn't work.
-        visible: enabled && Platform.OS === 'ios' && Platform.Version.split('.')[0] >= 14
+        visible: false
     };
 }
 
