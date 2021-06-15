@@ -153,7 +153,9 @@
     "start": "make dev",
     "ios": "react-native run-ios",
     "android": "react-native run-android",
-    "build-android-sdk": "rm -rf sdk && mkdir -p sdk/android && bash ./android/scripts/release-sdk.sh ./sdk/android",
-    "build-android-to": "cp -R ./sdk/android/"
+    "build-android-sdk": "rm -rf sdk/android && mkdir -p sdk/android && bash ./android/scripts/release-sdk.sh ./sdk/android",
+    "build-android-to": "cp -R ./sdk/android/",
+    "build-ios-sdk": "rm -rf sdk/ios && mkdir -p sdk/ios && bash ./ios/scripts/release-sdk.sh ./sdk/ios",
+    "build-ios-to": "cp -R ./sdk/ios/"
   }
 }
