@@ -395,7 +395,7 @@ var config = {
     // disable1On1Mode: false,
 
     // Default language for the user interface.
-    defaultLanguage: 'vn',
+    defaultLanguage: 'vi',
 
     // Disables profile and the edit of all fields from the profile settings (display name and email)
     disableProfile: true,
