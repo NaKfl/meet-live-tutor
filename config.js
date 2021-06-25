@@ -9,7 +9,7 @@ var config = {
         domain: 'meet.livetutor.live',
 
         // When using authentication, domain for guest users.
-        // anonymousdomain: 'guest.example.com',
+        anonymousdomain: 'meet.livetutor.live',
 
         // Domain for authenticated users. Defaults to <domain>.
         // authdomain: 'jitsi-meet.example.com',
