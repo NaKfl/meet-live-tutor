@@ -6,10 +6,10 @@ var config = {
 
     hosts: {
         // XMPP domain.
-        domain: 'meet.livetutor.live',
+        domain: "meet.livetutor.live",
 
         // When using authentication, domain for guest users.
-        anonymousdomain: 'meet.livetutor.live',
+        anonymousdomain: "meet.livetutor.live",
 
         // Domain for authenticated users. Defaults to <domain>.
         // authdomain: 'jitsi-meet.example.com',
@@ -18,23 +18,22 @@ var config = {
         // focus: 'focus.jitsi-meet.example.com',
 
         // XMPP MUC domain. FIXME: use XEP-0030 to discover it.
-        muc: 'conference.<!--# echo var="subdomain" default="" -->meet.livetutor.live'
+        muc: 'conference.<!--# echo var="subdomain" default="" -->meet.livetutor.live',
     },
 
     // BOSH URL. FIXME: use XEP-0156 to discover it.
-    bosh: '//meet.livetutor.live/http-bind',
+    bosh: "//meet.livetutor.live/http-bind",
 
     // Websocket URL
     // websocket: 'wss://jitsi-meet.example.com/xmpp-websocket',
 
     // The name of client node advertised in XEP-0115 'c' stanza
-    clientNode: 'http://jitsi.org/jitsimeet',
+    clientNode: "http://jitsi.org/jitsimeet",
 
     // The real JID of focus participant - can be overridden here
     // Do not change username - FIXME: Make focus username configurable
     // https://github.com/jitsi/jitsi-meet/issues/7376
     // focusUserJid: 'focus@auth.jitsi-meet.example.com',
-
 
     // Testing / experimental features.
     //
@@ -46,7 +45,7 @@ var config = {
 
         // P2P test mode disables automatic switching to P2P when there are 2
         // participants in the conference.
-        p2pTestMode: false
+        p2pTestMode: false,
 
         // Enables the test specific features consumed by jitsi-meet-torture
         // testMode: false
@@ -77,7 +76,6 @@ var config = {
     // Disables ICE/TCP by filtering out local and remote TCP candidates in
     // signalling.
     // webrtcIceTcpDisable: false,
-
 
     // Media
     //
@@ -395,7 +393,7 @@ var config = {
     // disable1On1Mode: false,
 
     // Default language for the user interface.
-    defaultLanguage: 'vi',
+    defaultLanguage: "vi",
 
     // Disables profile and the edit of all fields from the profile settings (display name and email)
     disableProfile: true,
@@ -453,7 +451,22 @@ var config = {
     // - 'desktop' controls the "Share your screen" button
     // - if `toolbarButtons` is undefined, we fallback to enabling all buttons on the UI
     toolbarButtons: [
-        'microphone', 'camera', 'closedcaptions', 'desktop', 'fullscreen', 'fodeviceselection', 'hangup', 'chat', 'recording', 'etherpad', 'sharedvideo', 'shareaudio', 'settings', 'raisehand', 'tileview', 'select-background'
+        "microphone",
+        "camera",
+        "closedcaptions",
+        "desktop",
+        "fullscreen",
+        "fodeviceselection",
+        "hangup",
+        "chat",
+        "recording",
+        "etherpad",
+        "sharedvideo",
+        "shareaudio",
+        "settings",
+        "raisehand",
+        "tileview",
+        "select-background",
     ],
 
     // Stats
@@ -490,7 +503,6 @@ var config = {
     // This means avatars will be locally generated and callstats integration
     // will not function.
     // disableThirdPartyRequests: false,
-
 
     // Peer-To-Peer mode: used (if enabled) when there are just 2 participants.
     //
@@ -533,38 +545,31 @@ var config = {
 
         // The STUN servers that will be used in the peer to peer connections
         stunServers: [
-
             // { urls: 'stun:jitsi-meet.example.com:3478' },
-            { urls: 'stun:meet-jit-si-turnrelay.jitsi.net:443' }
-        ]
+            { urls: "stun:meet-jit-si-turnrelay.jitsi.net:443" },
+        ],
     },
 
     analytics: {
         // The Google Analytics Tracking ID:
         // googleAnalyticsTrackingId: 'your-tracking-id-UA-123456-1'
-
         // Matomo configuration:
         // matomoEndpoint: 'https://your-matomo-endpoint/',
         // matomoSiteID: '42',
-
         // The Amplitude APP Key:
         // amplitudeAPPKey: '<APP_KEY>'
-
         // Configuration for the rtcstats server:
         // By enabling rtcstats server every time a conference is joined the rtcstats
         // module connects to the provided rtcstatsEndpoint and sends statistics regarding
         // PeerConnection states along with getStats metrics polled at the specified
         // interval.
         // rtcstatsEnabled: true,
-
         // In order to enable rtcstats one needs to provide a endpoint url.
         // rtcstatsEndpoint: wss://rtcstats-server-pilot.jitsi.net/,
-
         // The interval at which rtcstats will poll getStats, defaults to 1000ms.
         // If the value is set to 0 getStats won't be polled and the rtcstats client
         // will only send data related to RTCPeerConnection events.
         // rtcstatsPolIInterval: 1000,
-
         // Array of script URLs to load as lib-jitsi-meet "analytics handlers".
         // scriptURLs: [
         //      "libs/analytics-ga.min.js", // google-analytics
@@ -643,7 +648,7 @@ var config = {
 
     // If true, any checks to handoff to another application will be prevented
     // and instead the app will continue to display in the current browser.
-    // disableDeepLinking: false,
+    disableDeepLinking: true,
 
     // A property to disable the right click context menu for localVideo
     // the menu has option to flip the locally seen video for local presentations
@@ -677,7 +682,7 @@ var config = {
         disableKick: true,
 
         // If set to true the 'Grant moderator' button will be disabled.
-        disableGrantModerator: true
+        disableGrantModerator: true,
     },
 
     // If set to true all muting operations of remote participants will be disabled.
@@ -727,7 +732,7 @@ var config = {
     // hideParticipantsStats: true,
 
     // Sets the conference subject
-    subject: 'Live Tutor Meeting Room',
+    subject: "Live Tutor Meeting Room",
 
     // This property is related to the use case when jitsi-meet is used via the IFrame API. When the property is true
     // jitsi-meet will use the local storage of the host page instead of its own. This option is useful if the browser
@@ -852,7 +857,7 @@ var config = {
 
     // Allow all above example options to include a trailing comma and
     // prevent fear when commenting out the last value.
-    makeJsonParserHappy: 'even if last key had a trailing comma'
+    makeJsonParserHappy: "even if last key had a trailing comma",
 
     // no configuration value should follow this line.
 };
