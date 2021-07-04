@@ -260,7 +260,7 @@
         "stopStreamingWarning": "確定要停止直播串流嗎？",
         "streamKey": "直播串流密鑰",
         "Submit": "提交",
-        "thankYou": "感謝您使用 {{appName}}！",
+        "thankYou": "感謝您使用 Live Tutor！",
         "token": "標記",
         "tokenAuthFailed": "抱歉，您未被允許加入此會議。",
         "tokenAuthFailedTitle": "認證失敗",
@@ -514,7 +514,7 @@
     },
     "settings": {
         "calendar": {
-            "about": "此 {{appName}} 行事曆整合是安全存取您的行事曆，所以可以讀取即將發生的事件。",
+            "about": "此 Live Tutor 行事曆整合是安全存取您的行事曆，所以可以讀取即將發生的事件。",
             "disconnect": "中斷連接",
             "microsoftSignIn": "使用 Microsoft 帳戶登入",
             "signedIn": "目前是以 {{email}} 來存取行事曆事件。點按下方取消連接鈕可以停止存取行事曆事件。",

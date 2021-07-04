@@ -13,7 +13,7 @@
         "footerText": "Vytáčení je zakázáno.",
         "googleEmail": "E-mail Google",
         "inviteMoreHeader": "Jste v setkání sám/sama",
-        "inviteMoreMailSubject": "Přidejte se k setkání {{appName}}",
+        "inviteMoreMailSubject": "Přidejte se k setkání Live Tutor",
         "inviteMorePrompt": "Pozvat další lidi",
         "linkCopied": "Odkaz se zkopíroval do schránky",
         "loading": "Hledání lidí a telefonních čísel",
@@ -322,7 +322,7 @@
         "stopRecordingWarning": "Určitě chcete zastavit nahrávání?",
         "stopStreamingWarning": "Určitě chcete zastavit živý přenos?",
         "streamKey": "Klíč k živému přenosu",
-        "thankYou": "Děkujeme, že používáte {{appName}}!",
+        "thankYou": "Děkujeme, že používáte Live Tutor!",
         "token": "token",
         "tokenAuthFailed": "Bohužel nemáte povoleno se k tomuto volání připojit.",
         "tokenAuthFailedTitle": "Ověření selhalo",
@@ -555,7 +555,7 @@
         "startSilentDescription": "Připojte se znovu, aby se zvuk zapnul",
         "startSilentTitle": "Připojil/a jste se bez zvukového výstupu!",
         "suboptimalBrowserWarning": "Obáváme se, že vás nečeká právě nejlepší zážitek. Snažíme se to zlepšit, ale prozatím prosím zkuste použít některý z <a href='{{recommendedBrowserPageLink}}' target='_blank'>plně podporovaných prohlížečů</a>.",
-        "suboptimalExperienceDescription": "Zatraceně… všimli jsme si, že vaše zkušenost s {{appName}} není úplně skvělá. Hledáme cesty, jak bychom to mohli zlepšit. Než se tak stane, vyzkoušejte některý z <a href='{{recommendedBrowserPageLink}}' target='_blank'>plně podporovaných prohlížečů</a>.",
+        "suboptimalExperienceDescription": "Zatraceně… všimli jsme si, že vaše zkušenost s Live Tutor není úplně skvělá. Hledáme cesty, jak bychom to mohli zlepšit. Než se tak stane, vyzkoušejte některý z <a href='{{recommendedBrowserPageLink}}' target='_blank'>plně podporovaných prohlížečů</a>.",
         "suboptimalExperienceTitle": "Varování o prohlížeči",
         "unmute": "Zrušit ztišení"
     },
@@ -680,7 +680,7 @@
     },
     "settings": {
         "calendar": {
-            "about": "Integrace kalendáře {{appName}} slouží k bezpečnému přístupu k vašemu kalendáři, takže dovede zjistit nadcházející události.",
+            "about": "Integrace kalendáře Live Tutor slouží k bezpečnému přístupu k vašemu kalendáři, takže dovede zjistit nadcházející události.",
             "disconnect": "Odpojit",
             "microsoftSignIn": "Přihlásit se účtem Microsoft",
             "signedIn": "Právě se přistupuje ke kalendářním událostem pro {{email}}. Abyste zastavili přístup k událostem, klikněte na tlačítko Odpojit",

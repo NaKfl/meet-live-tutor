@@ -13,7 +13,7 @@
         "footerText": "La marcación está desactivada.",
         "googleEmail": "Correo electrónico de Google",
         "inviteMoreHeader": "Usted se encuentra solo en la reunión",
-        "inviteMoreMailSubject": "Unirse a la reunión {{appName}}",
+        "inviteMoreMailSubject": "Unirse a la reunión Live Tutor",
         "inviteMorePrompt": "Invitar a más personas",
         "linkCopied": "Link copiado al portapapeles",
         "loading": "Buscando por contacto y número telefónico",
@@ -308,7 +308,7 @@
         "stopStreamingWarning": "¿Estás seguro de que deseas detener la transmisión en vivo?",
         "streamKey": "Clave de transmisión en vivo",
         "Submit": "Enviar",
-        "thankYou": "¡Gracias por usar {{appName}}!",
+        "thankYou": "¡Gracias por usar Live Tutor!",
         "token": "token",
         "tokenAuthFailed": "Lo sentimos, no tienes permiso para unirte a esta llamada.",
         "tokenAuthFailedTitle": "Error de autenticación",
@@ -635,7 +635,7 @@
     },
     "settings": {
         "calendar": {
-            "about": "La integración del calendario de {{appName}} se usa para acceder al calendario de manera segura para que puedas estar al tanto de los próximos eventos.",
+            "about": "La integración del calendario de Live Tutor se usa para acceder al calendario de manera segura para que puedas estar al tanto de los próximos eventos.",
             "disconnect": "Desconectar",
             "microsoftSignIn": "Iniciar sesión con Microsoft",
             "signedIn": "Actualmente se accede a eventos del calendario para {{email}}. Haz clic en el botón Desconectar más abajo para detener el acceso a eventos del calendario.",

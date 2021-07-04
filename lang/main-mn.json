@@ -270,7 +270,7 @@
         "stopStreamingWarning": "Та шууд дамжуулалтыг зогсоохдоо итгэлтэй байна уу?",
         "streamKey": "Шууд дамжуулалтын түлхүүр",
         "Submit": "Илгээх",
-        "thankYou": "{{appName}} ашиглаж буй танд баярлалаа!",
+        "thankYou": "Live Tutor ашиглаж буй танд баярлалаа!",
         "token": "token",
         "tokenAuthFailed": "Уучлаарай, та энд нэвтрэх эрхгүй байна.",
         "tokenAuthFailedTitle": "Нэвтрэлт амжилтгүй",
@@ -515,7 +515,7 @@
     },
     "settings": {
         "calendar": {
-            "about": "The {{appName}} calendar integration is used to securely access your calendar so it can read upcoming events.",
+            "about": "The Live Tutor calendar integration is used to securely access your calendar so it can read upcoming events.",
             "disconnect": "Салгалаа",
             "microsoftSignIn": "Sign in with Microsoft",
             "signedIn": "Currently accessing calendar events for {{email}}. Click the Disconnect button below to stop accessing calendar events.",

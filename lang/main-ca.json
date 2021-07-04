@@ -270,7 +270,7 @@
         "stopStreamingWarning": "Esteu segur de voler aturar la transmissió en directe?",
         "streamKey": "Clau de transmissió en directe",
         "Submit": "Tramet",
-        "thankYou": "Gràcies per emprar {{appName}}!",
+        "thankYou": "Gràcies per emprar Live Tutor!",
         "token": "identificador",
         "tokenAuthFailed": "No esteu autoritzat a unir-vos a aquesta trucada.",
         "tokenAuthFailedTitle": "L'autenticació ha fallat",
@@ -518,7 +518,7 @@
     },
     "settings": {
         "calendar": {
-            "about": "La integració de l'agenda {{appName}} s'usa per a accedir de forma segura a la vostra agenda perquè pugui llegir els esdeveniments propers.",
+            "about": "La integració de l'agenda Live Tutor s'usa per a accedir de forma segura a la vostra agenda perquè pugui llegir els esdeveniments propers.",
             "disconnect": "Desconnectat",
             "microsoftSignIn": "Inicia sessió amb Microsoft",
             "signedIn": "Ara mateix s'està accedint els esdeveniments de l'agenda de {{email}}. Feu clic al botó «Desconnecta» per a deixar d'accedir als esdeveniments de l'agenda.",

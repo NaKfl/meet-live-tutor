@@ -270,7 +270,7 @@
         "stopStreamingWarning": "Oled kindel, et soovid otseülekannet lõpetada?",
         "streamKey": "Otseülekande võti",
         "Submit": "Esita",
-        "thankYou": "Aitäh, et kasutasid rakendust {{appName}}!",
+        "thankYou": "Aitäh, et kasutasid rakendust Live Tutor!",
         "token": "token",
         "tokenAuthFailed": "Kahjuks ei ole kõnega ühinemine lubatud.",
         "tokenAuthFailedTitle": "Autentimine ebaõnnestus",
@@ -452,7 +452,7 @@
         "somebody": "Keegi",
         "startSilentTitle": "Ühinesid ilma mikrofonita!",
         "startSilentDescription": "Mikrofoni kasutamiseks ühine kõnega uuesti",
-        "suboptimalExperienceDescription": "Rakenduse {{appName}}  parima kvaliteedi tagamiseks palun kasuta <a href='{{recommendedBrowserPageLink}}' target='_blank'>ühte nendest veebilehitsejatest</a>.",
+        "suboptimalExperienceDescription": "Rakenduse Live Tutor  parima kvaliteedi tagamiseks palun kasuta <a href='{{recommendedBrowserPageLink}}' target='_blank'>ühte nendest veebilehitsejatest</a>.",
         "suboptimalExperienceTitle": "Veebilehitseja hoiatus",
         "unmute": "Lülita mikrofon sisse",
         "newDeviceCameraTitle": "Leitud uus kaamera",
@@ -515,7 +515,7 @@
     },
     "settings": {
         "calendar": {
-            "about": "Rakenduse {{appName}} kalender kasutab turvalist ühendust ning näeb eesolevaid kõnesid.",
+            "about": "Rakenduse Live Tutor kalender kasutab turvalist ühendust ning näeb eesolevaid kõnesid.",
             "disconnect": "Ühenda lahti",
             "microsoftSignIn": "Logi sisse Microsoft’i kontoga",
             "signedIn": "Hetkel nähakse kasutaja {{email}} kalendrit. Kalendrikutsete peitmiseks vajuta “Ühenda lahti” nupule.",

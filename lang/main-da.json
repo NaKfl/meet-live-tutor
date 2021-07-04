@@ -1,4 +1,3 @@
- 
 {
     "addPeople": {
         "add": "Invitér",
@@ -272,7 +271,7 @@
         "stopStreamingWarning": "Er du sikker på at du ønsker at stoppe livestreaming?",
         "streamKey": "Livestream-nøgle",
         "Submit": "Gem",
-        "thankYou": "Tak for at du har benyttet {{appName}}!",
+        "thankYou": "Tak for at du har benyttet Live Tutor!",
         "token": "token",
         "tokenAuthFailed": "Beklager, du kan ikke deltage i dette møde.",
         "tokenAuthFailedTitle": "Login fejlede",
@@ -454,7 +453,7 @@
         "somebody": "Nogen",
         "startSilentTitle": "",
         "startSilentDescription": "",
-        "suboptimalExperienceDescription": "Hmmm... vi er bange for at din oplevelse med {{appName}} ikke vil være optimal. Vi arbejder på at forbedre dette, men indtil da forsøg venligst at bruge en af følgende <a href='{{recommendedBrowserPageLink}}' target='_blank'>fuldt understøttede internet browsere</a>.",
+        "suboptimalExperienceDescription": "Hmmm... vi er bange for at din oplevelse med Live Tutor ikke vil være optimal. Vi arbejder på at forbedre dette, men indtil da forsøg venligst at bruge en af følgende <a href='{{recommendedBrowserPageLink}}' target='_blank'>fuldt understøttede internet browsere</a>.",
         "suboptimalExperienceTitle": "Browser-advarsel",
         "unmute": "",
         "newDeviceCameraTitle": "Nyt kamera fundet",
@@ -517,7 +516,7 @@
     },
     "settings": {
         "calendar": {
-            "about": "{{appName}}s kalenderintegration benyttes til sikkert at tilgå din kalender så den kan læse fremtidige aftaler.",
+            "about": "Live Tutors kalenderintegration benyttes til sikkert at tilgå din kalender så den kan læse fremtidige aftaler.",
             "disconnect": "Afbryd",
             "microsoftSignIn": "Log ind med Microsoft",
             "signedIn": "Henter kalenderaftaler for {{email}}. Tryk på Afbryd for at afbryde forbindelsen.",

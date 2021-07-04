@@ -258,7 +258,7 @@
         "stopStreamingWarning": "Sunteți sigur că vreți să încheiați transmiterea live?",
         "streamKey": "Cheie transmitere live",
         "Submit": "Trimiteți",
-        "thankYou": "Vă mulțumim că utilizați {{appName}}!",
+        "thankYou": "Vă mulțumim că utilizați Live Tutor!",
         "token": "token",
         "tokenAuthFailed": "Ne pare rău, nu aveți permisiune pentru a participa la acest apel.",
         "tokenAuthFailedTitle": "Autentificare eșuată",
@@ -450,7 +450,7 @@
         "somebody": "Cineva",
         "startSilentTitle": "",
         "startSilentDescription": "",
-        "suboptimalExperienceDescription": "Hmm... se pare că experiența avută cu {{appName}} nu a decurs prea bine. Încercăm să îmbunătățim acest lucru, până atunci vă rugăm să folosiți unul dintre browserele suportate.",
+        "suboptimalExperienceDescription": "Hmm... se pare că experiența avută cu Live Tutor nu a decurs prea bine. Încercăm să îmbunătățim acest lucru, până atunci vă rugăm să folosiți unul dintre browserele suportate.",
         "suboptimalExperienceTitle": "Avertisment browser",
         "unmute": "",
         "newDeviceCameraTitle": "A fost detectată o cameră noua",
@@ -513,7 +513,7 @@
     },
     "settings": {
         "calendar": {
-            "about": "Integrarea calendarului {{appName}} este utilizată pentru a accesa în siguranță calendarul dumneavoastră astfel încât să poată vizualiza evenimentele viitoare.",
+            "about": "Integrarea calendarului Live Tutor este utilizată pentru a accesa în siguranță calendarul dumneavoastră astfel încât să poată vizualiza evenimentele viitoare.",
             "disconnect": "Deconectare",
             "microsoftSignIn": "Conectare cu Microsoft",
             "signedIn": "Sunt accesate evenimentele din calendarul {{email}}. Apăsați butonul Deconectare de mai jos pentru a opri accesarea evenimentelor din calendar.",

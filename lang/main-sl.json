@@ -281,7 +281,7 @@
         "stopRecordingWarning": "Ste prepričani, da želite zaustaviti snemanje?",
         "stopStreamingWarning": "Ste prepričani, da želite zaustaviti prenos v živo?",
         "streamKey": "Žeton za prenos v živo",
-        "thankYou": "Hvala, ker uporabljate {{appName}}!",
+        "thankYou": "Hvala, ker uporabljate Live Tutor!",
         "token": "žeton",
         "tokenAuthFailed": "Oprostite, temu srečanju se ne morete pridružiti.",
         "tokenAuthFailedTitle": "Neuspešna prijava",
@@ -572,7 +572,7 @@
     },
     "settings": {
         "calendar": {
-            "about": "Integracija koledarja {{appName}} se uporablja za varen dostop do vašega koledarja, tako da lahko bere prihajajoče dogodke.",
+            "about": "Integracija koledarja Live Tutor se uporablja za varen dostop do vašega koledarja, tako da lahko bere prihajajoče dogodke.",
             "disconnect": "Prekini povezavo",
             "microsoftSignIn": "Prijavite se z Microsoft računom",
             "signedIn": "Trenutno dostopate do dogodkov v koledarju za {{email}}. Če želite ustaviti dostop do koledarskih dogodkov, kliknite gumb 'Prekini povezavo'.",

@@ -21,7 +21,7 @@
         "addContacts": "Snubget inermisen-ik·im",
         "defaultEmail": "Imayl-ik•im amezwer",
         "yahooEmail": "Imayl n Yahoo",
-        "inviteMoreMailSubject": "Ddu ɣer temlilit {{appName}}",
+        "inviteMoreMailSubject": "Ddu ɣer temlilit Live Tutor",
         "copyInvite": "Nɣel tinubga n temlilit",
         "googleEmail": "Imayl n Google",
         "inviteMorePrompt": "Nced-d imdanen-nniḍen",
@@ -270,7 +270,7 @@
         "stopStreamingWarning": "S tidet tebɣiḍ ad tesḥebseḍ asuddem usrid?",
         "streamKey": "Tasarut n usuddem usrid",
         "Submit": "Azen",
-        "thankYou": "Tanemmirt ɣef useqdec n {{appName}}!",
+        "thankYou": "Tanemmirt ɣef useqdec n Live Tutor!",
         "token": "ajuṭu",
         "tokenAuthFailed": "Suref-aɣ, ur tesɛiḍ ara tisirag ad tettekkiḍ deg usiwel-a.",
         "tokenAuthFailedTitle": "",
@@ -543,7 +543,7 @@
     },
     "settings": {
         "calendar": {
-            "about": "Amsidef n uwitay {{appName}} yettuseqdac i unekcum aɣelsan ɣer uwitay-inek·inem i wakken ad d-iɣer ineḍruyen i d-iteddun.",
+            "about": "Amsidef n uwitay Live Tutor yettuseqdac i unekcum aɣelsan ɣer uwitay-inek·inem i wakken ad d-iɣer ineḍruyen i d-iteddun.",
             "disconnect": "Yeffeɣ",
             "microsoftSignIn": "Qqen s Microsoft",
             "signedIn": "Anekcum amiran ɣer yineḍruyen n uwitay i {{email}}. Sit ɣef tqeffalt ffeɣ i useḥbes n unekcum ɣer yineḍruyen n uwitay.",

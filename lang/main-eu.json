@@ -272,7 +272,7 @@
         "stopStreamingWarning": "Ziur zuzeneko erreprodukzioa gelditu nahi duzula?",
         "streamKey": "Zuzeneko erreprodukzioaren giltza",
         "Submit": "Bidali",
-        "thankYou": "Eskerrik asko {{appName}} erabiltzeagatik!",
+        "thankYou": "Eskerrik asko Live Tutor erabiltzeagatik!",
         "token": "token",
         "tokenAuthFailed": "Ez duzu dei honetara elkartzeko baimenik.",
         "tokenAuthFailedTitle": "Autentifikazioak huts egin du",
@@ -553,7 +553,7 @@
     },
     "settings": {
         "calendar": {
-            "about": "Egutegiaren integrazioa {{appName}} zure egutegian modu seguruan sartzeko erabiltzen da datozen gertaerak irakurri ahal izateko.",
+            "about": "Egutegiaren integrazioa Live Tutor zure egutegian modu seguruan sartzeko erabiltzen da datozen gertaerak irakurri ahal izateko.",
             "disconnect": "Deskonektatu",
             "microsoftSignIn": "Saioa hasi Microsoftekin",
             "signedIn": "Une honetan {{email}} arekin egutegiko gertaeretara sartzen ari zara. Egin klik beheko botoia deskonektatzeko.",

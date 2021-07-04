@@ -255,7 +255,7 @@
         "stopStreamingWarning": "Êtes-vous certain de vouloir arrêter la diffusion en direct?",
         "streamKey": "Clé de diffusion en direct",
         "Submit": "Envoyer",
-        "thankYou": "Merci d'utiliser {{appName}}!",
+        "thankYou": "Merci d'utiliser Live Tutor!",
         "token": "jeton",
         "tokenAuthFailed": "Désolé, vous n'avez pas la permission de rejoindre cet appel.",
         "tokenAuthFailedTitle": "Échec de l'authentification",
@@ -500,7 +500,7 @@
     },
     "settings": {
         "calendar": {
-            "about": "L'intégration de l'agenda de {{appName}} est utilisée pour accéder en toute sécurité à votre agenda pour qu'il puisse lire les événements à venir.",
+            "about": "L'intégration de l'agenda de Live Tutor est utilisée pour accéder en toute sécurité à votre agenda pour qu'il puisse lire les événements à venir.",
             "disconnect": "Déconnexion",
             "microsoftSignIn": "Se connecter avec Microsoft",
             "signedIn": "Accès aux événements de votre agenda en cours pour {{email}}. Cliquez sur le bouton de déconnexion ci-dessous pour terminer l'accès aux événements d'agenda.",

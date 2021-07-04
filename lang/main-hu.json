@@ -260,7 +260,7 @@
         "stopStreamingWarning": "Valóban leállítható az élő közvetítés?",
         "streamKey": "Élő közvetítés kulcsa",
         "Submit": "Elküldés",
-        "thankYou": "Köszönjük a {{appName}} használatát!",
+        "thankYou": "Köszönjük a Live Tutor használatát!",
         "token": "jelsor",
         "tokenAuthFailed": "Sajnáljuk, a csatlakozása nem megengedett ehhez a híváshoz.",
         "tokenAuthFailedTitle": "Hitelesítés meghiúsult",
@@ -514,7 +514,7 @@
     },
     "settings": {
         "calendar": {
-            "about": "A {{appName}} naptárintegráció a naptár biztonságos elérésére szolgál, így olvasni tudja a soron következő eseményeket.",
+            "about": "A Live Tutor naptárintegráció a naptár biztonságos elérésére szolgál, így olvasni tudja a soron következő eseményeket.",
             "disconnect": "Szétkapcsolás",
             "microsoftSignIn": "Bejelentkezés a Microsofttal",
             "signedIn": "Jelenleg ehhez az címhez tartozó naptár eseményei érhetőek el: {{email}}. Alább a „szétkapcsolás” gombra kattintva lehet leállítani a naptár eseményeinek elérését.",

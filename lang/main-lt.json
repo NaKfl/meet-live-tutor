@@ -270,7 +270,7 @@
         "stopStreamingWarning": "Ar esate įsitikinę, kad norite sustabdyti tiesioginę transliaciją?",
         "streamKey": "Tiesioginės transliacijos kodas",
         "Submit": "Pateikti",
-        "thankYou": "Ačiū, kad naudojate {{appName}}!",
+        "thankYou": "Ačiū, kad naudojate Live Tutor!",
         "token": "ženklas",
         "tokenAuthFailed": "Atsiprašome, jūs negalite prisijungti prie šio skambučio.",
         "tokenAuthFailedTitle": "Autentifikavimas neįvyko",
@@ -515,7 +515,7 @@
     },
     "settings": {
         "calendar": {
-            "about": "{{appName}} kalendoriaus integracija yra naudojama, kad saugiai išsaugoti ir sekti būsimus įvykius.",
+            "about": "Live Tutor kalendoriaus integracija yra naudojama, kad saugiai išsaugoti ir sekti būsimus įvykius.",
             "disconnect": "Atsijungti",
             "microsoftSignIn": "Prisijungti su Microsoft",
             "signedIn": "Šiuo metu kalendoriuje išsaugoti įvykiai pasiekiami {{email}}. Paspauskite Atsijungti mygtuką, kad sustabdyti prieigą prie kalendoriuje sužymėtų įvykių.",
@@ -648,7 +648,7 @@
         "noAudioSignalDesc": "Jei specialiai nenutildėte tai sistemoje, apsvarstykite perjungti įrangą.",
         "noAudioSignalDescSuggestion": "Jei specialiai nenutildėte tai sistemoje, apsvarstykite perjungti į pasiūlytą įrangą.",
         "noAudioSignalDialInDesc": "Galite skambinti naudodami:",
-        "noAudioSignalDialInLinkDesc" : "Numeriai skambučiams",
+        "noAudioSignalDialInLinkDesc": "Numeriai skambučiams",
         "noisyAudioInputTitle": "Jūsų mikrofonas per garsus!",
         "noisyAudioInputDesc": "Atrodo, kad jūsų mikrofonas turi trikdžių, prašome jį nutildyti arba pakeisti įrangą.",
         "openChat": "Atverti susirašinėjimą",
@@ -773,4 +773,3 @@
         "youAreAlone": "Jūs vienintelis(-ė) šiame susitikime"
     }
 }
-

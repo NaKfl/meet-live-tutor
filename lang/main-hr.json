@@ -250,7 +250,7 @@
         "stopStreamingWarning": "Da li ste sigurani da želite zaustaviti emitiranje uživo?",
         "streamKey": "Ključ za emitiranje uživo",
         "Submit": "Pošalji",
-        "thankYou": "Hvala što koristite {{appName}}!",
+        "thankYou": "Hvala što koristite Live Tutor!",
         "token": "token",
         "tokenAuthFailed": "Žao nam je, nije vam dozvoljeno pridružiti se pozivu.",
         "tokenAuthFailedTitle": "Autentikacija nije uspjela",
@@ -486,7 +486,7 @@
     },
     "settings": {
         "calendar": {
-            "about": "Integracija kalendara {{appName}} koristi se za siguran pristup kalendaru tako da može čitati nadolazeće događaje.",
+            "about": "Integracija kalendara Live Tutor koristi se za siguran pristup kalendaru tako da može čitati nadolazeće događaje.",
             "disconnect": "Odspoji",
             "microsoftSignIn": "Prijavite se sa Microsoftom",
             "signedIn": "Trenutno pristupate događajima kalendara za {{email}}. Kliknite gumb Odspoji u nastavku da biste zaustavili pristup događajima u kalendaru.",

@@ -13,7 +13,7 @@
         "footerText": "شماره‌گیری غیرفعال است",
         "googleEmail": "رایانامه‌ی گوگل",
         "inviteMoreHeader": "شما تنها فرد این جلسه هستید",
-        "inviteMoreMailSubject": "دعوت به جلسه در {{appName}}",
+        "inviteMoreMailSubject": "دعوت به جلسه در Live Tutor",
         "inviteMorePrompt": "دعوت سایر افراد",
         "linkCopied": "نشانی اینترنتی کپی شد",
         "loading": "جستجوی افراد و شماره تلفن‌ها",
@@ -294,7 +294,7 @@
         "stopStreamingWarning": "آیا می‌خواهید پخش زنده را متوقف کنید؟",
         "streamKey": "کلید پخش زنده",
         "Submit": "ارسال",
-        "thankYou": "سپاس از شما برای استفاده از {{appName}}!",
+        "thankYou": "سپاس از شما برای استفاده از Live Tutor!",
         "token": "توکن",
         "tokenAuthFailed": "شما امکان پیوستن به این تماس نیستید را ندارید",
         "tokenAuthFailedTitle": "احراز هویت با خطا مواجه شد",
@@ -619,7 +619,7 @@
     },
     "settings": {
         "calendar": {
-            "about": "با اتصال {{appName}} به تقویم می‌توانید رویدادهای پیش رو را ببینید",
+            "about": "با اتصال Live Tutor به تقویم می‌توانید رویدادهای پیش رو را ببینید",
             "disconnect": "قطع ارتباط",
             "microsoftSignIn": "ورود با حساب کاربری مایکروسافت",
             "signedIn": "دسترسی به رویدادهای تقویم رایانامه {{email}} برقرار است",

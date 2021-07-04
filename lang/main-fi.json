@@ -245,7 +245,7 @@
         "stopStreamingWarning": "Haluatko varmasti lopettaa suoratoiston?",
         "streamKey": "Suoratoistokoodi",
         "Submit": "Lähetä",
-        "thankYou": "Kiitos sovelluksen {{appName}} käytöstä!",
+        "thankYou": "Kiitos sovelluksen Live Tutor käytöstä!",
         "token": "koodi",
         "tokenAuthFailed": "Valitettavasti et saa osallistua tähän puheluun.",
         "tokenAuthFailedTitle": "Todennus epäonnistui",
@@ -421,7 +421,7 @@
         "somebody": "Joku",
         "startSilentTitle": "",
         "startSilentDescription": "",
-        "suboptimalExperienceDescription": "Valitettavasti {{appName}} ei taida toimia kovin hyvin täällä. Yritämme löytää parannuskeinoja, mutta sillä välin kannattaa käyttää jotain <a href='{{recommendedBrowserPageLink}}' target='_blank'>täysin tuettua selainta</a>.",
+        "suboptimalExperienceDescription": "Valitettavasti Live Tutor ei taida toimia kovin hyvin täällä. Yritämme löytää parannuskeinoja, mutta sillä välin kannattaa käyttää jotain <a href='{{recommendedBrowserPageLink}}' target='_blank'>täysin tuettua selainta</a>.",
         "suboptimalExperienceTitle": "Selainvaroitus",
         "unmute": "",
         "newDeviceCameraTitle": "Uusi kamera havaittu",
@@ -481,7 +481,7 @@
     },
     "settings": {
         "calendar": {
-            "about": "{{appName}} tarkistaa tulevat tapahtumat kalenteristasi turvallisesti kalenteri-integrointitoimintonsa avulla.",
+            "about": "Live Tutor tarkistaa tulevat tapahtumat kalenteristasi turvallisesti kalenteri-integrointitoimintonsa avulla.",
             "disconnect": "Katkaise yhteys",
             "microsoftSignIn": "Kirjaudu Microsoftilla",
             "signedIn": "Tarkastellaan käyttäjän {{email}} kalenteritapahtumia. Estä tarkastelu napsauttamalla Katkaise yhteys -painiketta.",

@@ -275,7 +275,7 @@
         "stopStreamingWarning": "Ĉu vi certe volas fini la tujan elsendfluon?",
         "streamKey": "Ŝlosilo de tuja elsendfluo",
         "Submit": "Sendi",
-        "thankYou": "Dankon ke vi uzas {{appName}}!",
+        "thankYou": "Dankon ke vi uzas Live Tutor!",
         "token": "ĵetono",
         "tokenAuthFailed": "Pardonu, vi ne rajtas aliĝi al ĉi tiu voko.",
         "tokenAuthFailedTitle": "Aŭtentigo malsukcesis",
@@ -529,7 +529,7 @@
     },
     "settings": {
         "calendar": {
-            "about": "La integrigo de kalendaro {{appName}} estas uzata por sekure aliri vian kalendaron, por ke ĝi povu legi planitajn eventojn.",
+            "about": "La integrigo de kalendaro Live Tutor estas uzata por sekure aliri vian kalendaron, por ke ĝi povu legi planitajn eventojn.",
             "disconnect": "Malkonekti",
             "microsoftSignIn": "Ensaluti per Microsoft",
             "signedIn": "Alirado al kalendaraj eventoj por {{email}}. Klaku la buton “Malkonekti” sube por ĉesigi aliradon al kalendaraj eventoj.",

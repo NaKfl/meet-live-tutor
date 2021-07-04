@@ -265,7 +265,7 @@
         "stopStreamingWarning": "Tiešām vēlaties beigt tiešraidi?",
         "streamKey": "Tiešraides atslēga",
         "Submit": "ОК",
-        "thankYou": "Super, ka izmantojat {{appName}}!",
+        "thankYou": "Super, ka izmantojat Live Tutor!",
         "token": "tokens/marķieris",
         "tokenAuthFailed": "Atvainojiet, jums nav atļauts pievienoties šai sesijai (sapulces telpai).",
         "tokenAuthFailedTitle": "Autentifikācijas kļūme",
@@ -448,7 +448,7 @@
         "startSilentTitle": "Jūs esiet nedzirdams!",
         "startSilentDescription": "Lai ieslēgtu skaņu, pieslēdzieties sapulcei par jaunu",
         "suboptimalBrowserWarning": "Diemžēl jūsu pārlūks pilnībā neatbalsta šo virtuālo sapulču sistēmu. Pie tā tiek strādāts, bet šobrīd tiek ieteikts izmantot <a href='{{recommendedBrowserPageLink}}' target='_blank'> šos pārlūkus</a>.",
-        "suboptimalExperienceTitle": "Diemžēl jūsu pārlūks, iespējams, var pienācīgi nestrādāt ar {{appName}}. Pie tā tiek strādāts, bet šobrīd tiek ieteikts izmantot kādu no <a href='{{recommendedBrowserPageLink}} 'target='_blank'>pilnībā atbalstītajiem pārlūkiem</a>.",
+        "suboptimalExperienceTitle": "Diemžēl jūsu pārlūks, iespējams, var pienācīgi nestrādāt ar Live Tutor. Pie tā tiek strādāts, bet šobrīd tiek ieteikts izmantot kādu no <a href='{{recommendedBrowserPageLink}} 'target='_blank'>pilnībā atbalstītajiem pārlūkiem</a>.",
         "unmute": "Ieslēgt skaņu/mikrofonu",
         "newDeviceCameraTitle": "Pamanīta jauna kamera",
         "newDeviceAudioTitle": "Pamanīta jauna audio ierīce",
@@ -510,7 +510,7 @@
     },
     "settings": {
         "calendar": {
-            "about": "Integrācija ar kalendāru {{appName}} tiek izmantota, lai droši piekļūtu jūsu kalendāram un sinhronizētu plānotos pasākumus.",
+            "about": "Integrācija ar kalendāru Live Tutor tiek izmantota, lai droši piekļūtu jūsu kalendāram un sinhronizētu plānotos pasākumus.",
             "disconnect": "Atslēgties",
             "microsoftSignIn": "Ierakstīties ar Microsoft kontu",
             "signedIn": "Pašreiz ir piekļuve e-pasta adreses {{email}} kalendāra notikumiem. Noklikšķiniet uz pogas |Atslēgt|, lai izslēgtu piekļuvi šiem kalendāra pasākumiem.",

@@ -255,7 +255,7 @@
         "stopStreamingWarning": "Tem certeza que deseja parar a transmissão ao vivo?",
         "streamKey": "Chave para transmissão ao vivo",
         "Submit": "Enviar",
-        "thankYou": "Obrigado por usar o {{appName}}!",
+        "thankYou": "Obrigado por usar o Live Tutor!",
         "token": "token",
         "tokenAuthFailed": "Desculpe, você não está autorizado a entrar nesta chamada.",
         "tokenAuthFailedTitle": "Falha de autenticação",
@@ -500,7 +500,7 @@
     },
     "settings": {
         "calendar": {
-            "about": "A integração do calendário {{appName}} é usada para acessar com segurança o seu calendário para que ele possa ler os próximos eventos.",
+            "about": "A integração do calendário Live Tutor é usada para acessar com segurança o seu calendário para que ele possa ler os próximos eventos.",
             "disconnect": "Desconectar",
             "microsoftSignIn": "Entrar com Microsoft",
             "signedIn": "Atualmente acessando eventos do calendário para {{email}}. Clique no botão Desconectar abaixo para parar de acessar os eventos da agenda.",

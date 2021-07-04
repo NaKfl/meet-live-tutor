@@ -13,7 +13,7 @@
         "footerText": "Uitgaande oproepen zijn uitgeschakeld.",
         "googleEmail": "Google E-mail",
         "inviteMoreHeader": "U bent de enige in de vergadering",
-        "inviteMoreMailSubject": "Deelnemen aan {{appName}}-vergadering",
+        "inviteMoreMailSubject": "Deelnemen aan Live Tutor-vergadering",
         "inviteMorePrompt": "Nodig meer personen uit",
         "linkCopied": "Link gekopieerd naar klembord",
         "loading": "Personen en telefoonnummers aan het zoeken",
@@ -308,7 +308,7 @@
         "stopStreamingWarning": "Weet u zeker dat u de livestream wilt stoppen?",
         "streamKey": "Sleutel voor livestream",
         "Submit": "Verzenden",
-        "thankYou": "Bedankt voor het gebruik van {{appName}}.",
+        "thankYou": "Bedankt voor het gebruik van Live Tutor.",
         "token": "token",
         "tokenAuthFailed": "Sorry, u bent niet toegestaan om deel te nemen aan dit gesprek.",
         "tokenAuthFailedTitle": "Authenticering mislukt",
@@ -535,9 +535,9 @@
         "configuringDevices": "Apparaten instellen...",
         "connectedWithAudioQ": "Bent u verbonden met audio?",
         "connection": {
-           "good": "Uw internetverbinding lijkt goed te zijn!",
-           "nonOptimal": "Uw internetverbinding is niet optimaal",
-           "poor": "Uw internetverbinding is slecht"
+            "good": "Uw internetverbinding lijkt goed te zijn!",
+            "nonOptimal": "Uw internetverbinding is niet optimaal",
+            "poor": "Uw internetverbinding is slecht"
         },
         "copyAndShare": "Kopieer & deel link naar vergadering",
         "dialInMeeting": "Inbellen naar de vergadering",
@@ -629,7 +629,7 @@
     },
     "settings": {
         "calendar": {
-            "about": "De agenda-integratie van {{appName}} wordt gebruikt voor een veilige toegang tot uw agenda, zodat het aankomende afspraken kan uitlezen.",
+            "about": "De agenda-integratie van Live Tutor wordt gebruikt voor een veilige toegang tot uw agenda, zodat het aankomende afspraken kan uitlezen.",
             "disconnect": "Verbinding verbreken",
             "microsoftSignIn": "Aanmelden met Microsoft",
             "signedIn": "Agenda-afspraken voor {{email}} worden uitgelezen. Klik op de knop 'Verbinding verbreken' hieronder om de toegang tot agenda-afspraken te stoppen.",
@@ -923,7 +923,7 @@
         "header": "Helpcentrum"
     },
     "lobby": {
-        "knockingParticipantList" : "Lijst van aankloppende deelnemers",
+        "knockingParticipantList": "Lijst van aankloppende deelnemers",
         "allow": "Toestaan",
         "backToKnockModeButton": "Geen wachtwoord, vraag om deel te mogen nemen",
         "dialogTitle": "Lobby-modus",

@@ -7,13 +7,13 @@
         "copyStream": "Kopiuj link transmisji na żywo",
         "countryNotSupported": "Nie obsługujemy jeszcze tej lokalizacji.",
         "countryReminder": "Dzwonisz spoza USA? Upewnij się, że zaczynasz od kodu kraju!",
-        "defaultEmail": "Domyślna poczta",        
+        "defaultEmail": "Domyślna poczta",
         "disabled": "Nie możesz zapraszać ludzi.",
         "failedToAdd": "Błąd dodawania uczestników",
         "footerText": "Wybieranie numeru jest wyłączone.",
         "googleEmail": "Poczta Google",
         "inviteMoreHeader": "Jesteś jedynym uczestnikiem tego spotkania",
-        "inviteMoreMailSubject": "Dołącz do spotkania {{appName}}",
+        "inviteMoreMailSubject": "Dołącz do spotkania Live Tutor",
         "inviteMorePrompt": "Zaproś innych uczestników",
         "linkCopied": "Link skopiowany do schowka",
         "loading": "Szukaj ludzi i numerów telefonów",
@@ -74,12 +74,12 @@
         "title": "Rozmowa",
         "you": "Ty"
     },
-	"chromeExtensionBanner": {
+    "chromeExtensionBanner": {
         "installExtensionText": "Zainstaluj rozszerzenie integrujące Kalendarz Google i Office 365",
         "buttonText": "Zainstaluj rozszerzenie Chrome",
         "dontShowAgain": "Nie pokazuj ponownie"
     },
-	"connectingOverlay": {
+    "connectingOverlay": {
         "joiningRoom": "Łączenie ze spotkaniem…"
     },
     "connection": {
@@ -295,7 +295,7 @@
         "stopStreamingWarning": "Czy jesteś pewny, że chcesz zatrzymać tę transmisję na żywo?",
         "streamKey": "Klucz transmisji na żywo",
         "Submit": "Wyślij",
-        "thankYou": "Dziękujemy Ci za używanie {{appName}}!",
+        "thankYou": "Dziękujemy Ci za używanie Live Tutor!",
         "token": "token",
         "tokenAuthFailed": "Przepraszamy, ale nie jesteś upoważniony do uczestnictwa w tym połączeniu.",
         "tokenAuthFailedTitle": "Uwierzytelnianie nie powiodło się",
@@ -428,7 +428,7 @@
         "start": "Rozpocznij transmisję na żywo",
         "streamIdHelp": "Co to jest?",
         "unavailableTitle": "Transmisja na żywo jest niedostępna",
-		"youtubeTerms": "Warunki użytkowania YouTube",
+        "youtubeTerms": "Warunki użytkowania YouTube",
         "googlePrivacyPolicy": "Polityka prywatności Google"
     },
     "localRecording": {
@@ -598,7 +598,7 @@
     },
     "settings": {
         "calendar": {
-            "about": "{{appName}} integracji kalendarza służy do bezpiecznego dostępu do kalendarza, aby można było odczytywać nadchodzące wydarzenia.",
+            "about": "Live Tutor integracji kalendarza służy do bezpiecznego dostępu do kalendarza, aby można było odczytywać nadchodzące wydarzenia.",
             "disconnect": "Rozłącz",
             "microsoftSignIn": "Zaloguj się z Microsoft",
             "signedIn": "Dostęp do wydarzeń kalendarza dla {{email}}. Kliknij poniższy przycisk Rozłącz aby zatrzymać dostęp do wydarzeń kalendarza.",
@@ -616,7 +616,7 @@
         "selectAudioOutput": "Wyjście audio",
         "selectCamera": "Kamera",
         "selectMic": "Mikrofon",
-		"speakers": "Głośniki",
+        "speakers": "Głośniki",
         "startAudioMuted": "Wycisz wszystkich dołączających",
         "startVideoMuted": "Ukryj wszystkich dołączających",
         "title": "Ustawienia"
@@ -624,7 +624,7 @@
     "settingsView": {
         "advanced": "Zaawansowane",
         "alertOk": "OK",
-		"alertCancel": "Anuluj",
+        "alertCancel": "Anuluj",
         "alertTitle": "Uwaga",
         "alertURLText": "Wprowadzony adres URL serwera jest nieprawidłowy",
         "buildInfoSection": "Informacja o kompilacji",
@@ -868,7 +868,7 @@
         "sendFeedback": "Wyślij opinię",
         "terms": "Warunki korzystania",
         "title": "Bezpieczna, w pełni funkcjonalna i całkowicie bezpłatna wideokonferencja"
-	},
+    },
     "lonelyMeetingExperience": {
         "button": "Zaproś innych uczestników",
         "youAreAlone": "Tylko ty uczestniczysz w tym spotkaniu"

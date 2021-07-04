@@ -13,7 +13,7 @@
         "footerText": "底部文本",
         "googleEmail": "Google 邮箱",
         "inviteMoreHeader": "会议中仅你一人",
-        "inviteMoreMailSubject": "加入 {{appName}} 会议",
+        "inviteMoreMailSubject": "加入 Live Tutor 会议",
         "inviteMorePrompt": "邀请更多人",
         "linkCopied": "链接已经复制到剪切板",
         "loading": "正在加载",
@@ -293,7 +293,7 @@
         "stopStreamingWarning": "确定要停止流媒体直播吗？",
         "streamKey": "流媒体直播密钥",
         "Submit": "提交",
-        "thankYou": "感谢使用{{appName}}！",
+        "thankYou": "感谢使用Live Tutor！",
         "token": "标识",
         "tokenAuthFailed": "对不起，您未被允许参加此会议。",
         "tokenAuthFailedTitle": "认证失败",
@@ -617,7 +617,7 @@
     },
     "settings": {
         "calendar": {
-            "about": "{{appName}} 的日历集成用于安全访问您的日历，以便它可以读取即将发生的事件。",
+            "about": "Live Tutor 的日历集成用于安全访问您的日历，以便它可以读取即将发生的事件。",
             "disconnect": "断开连接",
             "microsoftSignIn": "Microsoft帐号登录",
             "signedIn": "目前通过 {{email}} 获取日历事件。点击下方断开连接按钮停止访问。",
