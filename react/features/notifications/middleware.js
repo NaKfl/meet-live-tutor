@@ -43,15 +43,15 @@ MiddlewareRegistry.register(store => next => action => {
         if (typeof interfaceConfig === 'object'
                 && !interfaceConfig.DISABLE_FOCUS_INDICATOR && p.role === PARTICIPANT_ROLE.MODERATOR) {
             // Do not show the notification for mobile and also when the focus indicator is disabled.
-            const displayName = getParticipantDisplayName(getState, p.id);
+            // const displayName = getParticipantDisplayName(getState, p.id);
 
-            dispatch(showNotification({
-                descriptionArguments: { to: displayName || '$t(notify.somebody)' },
-                descriptionKey: 'notify.grantedTo',
-                titleKey: 'notify.somebody',
-                title: displayName
-            },
-            NOTIFICATION_TIMEOUT));
+            // dispatch(showNotification({
+            //     descriptionArguments: { to: displayName || '$t(notify.somebody)' },
+            //     descriptionKey: 'notify.grantedTo',
+            //     titleKey: 'notify.somebody',
+            //     title: displayName
+            // },
+            // NOTIFICATION_TIMEOUT));
         }
 
         return result;
@@ -88,15 +88,15 @@ MiddlewareRegistry.register(store => next => action => {
         const oldRole = oldParticipant?.role;
 
         if (oldRole && oldRole !== role && role === PARTICIPANT_ROLE.MODERATOR) {
-            const displayName = getParticipantDisplayName(state, id);
+            // const displayName = getParticipantDisplayName(state, id);
 
-            store.dispatch(showNotification({
-                descriptionArguments: { to: displayName || '$t(notify.somebody)' },
-                descriptionKey: 'notify.grantedTo',
-                titleKey: 'notify.somebody',
-                title: displayName
-            },
-            NOTIFICATION_TIMEOUT));
+            // store.dispatch(showNotification({
+            //     descriptionArguments: { to: displayName || '$t(notify.somebody)' },
+            //     descriptionKey: 'notify.grantedTo',
+            //     titleKey: 'notify.somebody',
+            //     title: displayName
+            // },
+            // NOTIFICATION_TIMEOUT));
         }
 
         return next(action);
